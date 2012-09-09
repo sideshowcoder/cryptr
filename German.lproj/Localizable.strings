@@ -1,0 +1,13 @@
+﻿/* 
+   Localizable.strings
+   Cryptr
+
+   Created by Philipp Fehre on 6/11/09.
+   Copyright 2009 SideShowCoder.com. All rights reserved.
+ */
+"ENCERR" = "Fehler beim Verschlüsseln";
+"DECERR" = "Fehler beim Entschlüsseln";
+"OK" = "Ok";
+"NOPASSWD" = "Kein Passwort angegeben" ;
+"WRONGPASSWD" = "Passwort falsch?";
+"WRONGFILETYP" = "Keine Cryptr Datei";

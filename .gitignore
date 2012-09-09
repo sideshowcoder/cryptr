@@ -1,0 +1,13 @@
+# A hidden file created by the Mac OS X Finder.
+.DS_Store
+
+# Personal Xcode settings
+*.pbxuser
+*.mode2v3
+*.mode1v3
+
+# Don't Track Backup files
+*.orig
+
+# Ignore Build folder
+build/**

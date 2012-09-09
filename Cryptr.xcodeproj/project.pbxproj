@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		4A027F930FCC22440005804E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A027F920FCC22440005804E /* Preferences.xib */; };
+		4A027F970FCC22DC0005804E /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A027F960FCC22DC0005804E /* PreferencesController.m */; };
+		4A69F7AD1018C1FD006514F4 /* cryptrmenubar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A69F7AC1018C1FD006514F4 /* cryptrmenubar.png */; };
+		4A69F8261018DF48006514F4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A69F8251018DF48006514F4 /* Carbon.framework */; };
+		4A7650AE10AC4F3D00C81951 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7650AD10AC4F3D00C81951 /* Growl.framework */; };
+		4A7650BE10AC4FA000C81951 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A7650AD10AC4F3D00C81951 /* Growl.framework */; };
+		4AA8D37E0FC5C93000652D00 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8D37D0FC5C93000652D00 /* AppController.m */; };
+		4AA8D3CB0FC5E1E500652D00 /* SSCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA8D3CA0FC5E1E500652D00 /* SSCrypto.framework */; };
+		4AA8D3FE0FC5E40400652D00 /* SSCrypto.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AA8D3CA0FC5E1E500652D00 /* SSCrypto.framework */; };
+		4AA8D40F0FC5E91700652D00 /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8D40E0FC5E91700652D00 /* DragView.m */; };
+		4AC8D6BA10B4A82B00CD801F /* cryptr_doc.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4AC8D6B810B4A82B00CD801F /* cryptr_doc.icns */; };
+		4AC8D6BB10B4A82B00CD801F /* cryptr_main.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4AC8D6B910B4A82B00CD801F /* cryptr_main.icns */; };
+		4AD6F7DB0FCB30580015C3DC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD6F7DA0FCB30580015C3DC /* Credits.rtf */; };
+		4AF35D280FE192F30064ACA2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF35D260FE192F30064ACA2 /* Localizable.strings */; };
+		4AF757FB0FD66AC90006AE0C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF757FA0FD66AC90006AE0C /* Sparkle.framework */; };
+		4AF7580C0FD66BD20006AE0C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 4AF7580B0FD66BD20006AE0C /* dsa_pub.pem */; };
+		4AF758210FD66D6A0006AE0C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF757FA0FD66AC90006AE0C /* Sparkle.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AA8D3FD0FC5E3C000652D00 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A7650BE10AC4FA000C81951 /* Growl.framework in CopyFiles */,
+				4AF758210FD66D6A0006AE0C /* Sparkle.framework in CopyFiles */,
+				4AA8D3FE0FC5E40400652D00 /* SSCrypto.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Cryptr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cryptr_Prefix.pch; sourceTree = "<group>"; };
+		4A027F920FCC22440005804E /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		4A027F950FCC22DC0005804E /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		4A027F960FCC22DC0005804E /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		4A69F7AC1018C1FD006514F4 /* cryptrmenubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cryptrmenubar.png; sourceTree = "<group>"; };
+		4A69F8251018DF48006514F4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		4A7650AD10AC4F3D00C81951 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		4AA8D37C0FC5C93000652D00 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		4AA8D37D0FC5C93000652D00 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		4AA8D3CA0FC5E1E500652D00 /* SSCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSCrypto.framework; sourceTree = "<group>"; };
+		4AA8D40D0FC5E91700652D00 /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		4AA8D40E0FC5E91700652D00 /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		4AC8D6B810B4A82B00CD801F /* cryptr_doc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cryptr_doc.icns; sourceTree = "<group>"; };
+		4AC8D6B910B4A82B00CD801F /* cryptr_main.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cryptr_main.icns; sourceTree = "<group>"; };
+		4AD6F7DA0FCB30580015C3DC /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		4AF35D160FE190600064ACA2 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4AF35D270FE192F30064ACA2 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4AF35D290FE193160064ACA2 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4AF757FA0FD66AC90006AE0C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		4AF7580B0FD66BD20006AE0C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Cryptr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4AA8D3CB0FC5E1E500652D00 /* SSCrypto.framework in Frameworks */,
+				4AF757FB0FD66AC90006AE0C /* Sparkle.framework in Frameworks */,
+				4A69F8261018DF48006514F4 /* Carbon.framework in Frameworks */,
+				4A7650AE10AC4F3D00C81951 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AA8D37C0FC5C93000652D00 /* AppController.h */,
+				4AA8D37D0FC5C93000652D00 /* AppController.m */,
+				4AA8D40D0FC5E91700652D00 /* DragView.h */,
+				4AA8D40E0FC5E91700652D00 /* DragView.m */,
+				4A027F950FCC22DC0005804E /* PreferencesController.h */,
+				4A027F960FCC22DC0005804E /* PreferencesController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7650AD10AC4F3D00C81951 /* Growl.framework */,
+				4A69F8251018DF48006514F4 /* Carbon.framework */,
+				4AF757FA0FD66AC90006AE0C /* Sparkle.framework */,
+				4AA8D3CA0FC5E1E500652D00 /* SSCrypto.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Cryptr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Cryptr */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Cryptr;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Cryptr_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A69F7AC1018C1FD006514F4 /* cryptrmenubar.png */,
+				4AF7580B0FD66BD20006AE0C /* dsa_pub.pem */,
+				4AD6F7DA0FCB30580015C3DC /* Credits.rtf */,
+				4AC8D6B810B4A82B00CD801F /* cryptr_doc.icns */,
+				4AC8D6B910B4A82B00CD801F /* cryptr_main.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				4A027F920FCC22440005804E /* Preferences.xib */,
+				4AF35D260FE192F30064ACA2 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Cryptr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Cryptr" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4AA8D3FD0FC5E3C000652D00 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryptr;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Cryptr;
+			productReference = 8D1107320486CEB800E47090 /* Cryptr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cryptr" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Cryptr */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Cryptr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4AD6F7DB0FCB30580015C3DC /* Credits.rtf in Resources */,
+				4A027F930FCC22440005804E /* Preferences.xib in Resources */,
+				4AF7580C0FD66BD20006AE0C /* dsa_pub.pem in Resources */,
+				4AF35D280FE192F30064ACA2 /* Localizable.strings in Resources */,
+				4A69F7AD1018C1FD006514F4 /* cryptrmenubar.png in Resources */,
+				4AC8D6BA10B4A82B00CD801F /* cryptr_doc.icns in Resources */,
+				4AC8D6BB10B4A82B00CD801F /* cryptr_main.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				4AA8D37E0FC5C93000652D00 /* AppController.m in Sources */,
+				4AA8D40F0FC5E91700652D00 /* DragView.m in Sources */,
+				4A027F970FCC22DC0005804E /* PreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+				4AF35D160FE190600064ACA2 /* German */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4AF35D260FE192F30064ACA2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF35D270FE192F30064ACA2 /* English */,
+				4AF35D290FE193160064ACA2 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Dropbox/Dev Support Files/BWToolkit\"",
+					"\"$(SRCROOT)/../../../Dropbox/Dev Support Files/Growl/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Cryptr_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Cryptr;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Dropbox/Dev Support Files/BWToolkit\"",
+					"\"$(SRCROOT)/../../../Dropbox/Dev Support Files/Growl/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Cryptr_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Cryptr;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Cryptr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cryptr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
